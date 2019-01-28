@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-这是以恶搞springboot整合mybatis的单数据源demo，其架构简洁清晰，采用全注解方式，适用于单体项目，能够快速开始你的业务代码
+这是springboot整合mybatis的单数据源demo，其架构简洁清晰，采用全注解方式，适用于单体项目，能够快速开始你的业务代码
 
 极简版 springboot（默认连接池HirakiCP）、mybatis（纯注解[复杂sql]）、mysql，模板直接套用
 

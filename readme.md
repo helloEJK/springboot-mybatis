@@ -11,41 +11,41 @@
 ## 项目结构
 
 ```
-src												# 源码包
+src									# 源码包
     ├─main
     │  ├─java
     │  │  └─com
     │  │      └─example
-    │  │          └─springbootmybatis							# 业务逻辑包
+    │  │          └─springbootmybatis					# 业务逻辑包
     │  │              │  SpringbootMybatisApplication.java
     │  │              │
-    │  │              ├─controller									# 控制器包
+    │  │              ├─controller					# 控制器包
     │  │              │      UserController.java
     │  │              │
-    │  │              ├─entity										# 实体类包
+    │  │              ├─entity						# 实体类包
     │  │              │      Page.java
     │  │              │
-    │  │              ├─mapper										# mapper接口包
+    │  │              ├─mapper						# mapper接口包
     │  │              │      UserMapper.java
     │  │              │
-    │  │              ├─service										# 服务接口包
+    │  │              ├─service						# 服务接口包
     │  │              │  │  UserService.java
     │  │              │  │
-    │  │              │  └─impl										# 服务接口实现包
+    │  │              │  └─impl						# 服务接口实现包
     │  │              │          UserServiceImpl.java
     │  │              │
-    │  │              └─util										# 工具类包
+    │  │              └─util						# 工具类包
     │  │                      Const.java
     │  │
-    │  └─resources										# 资源文件存放路径
+    │  └─resources							# 资源文件存放路径
     │      │  application.yml
     │      │
-    │      └─static											# 静态资源存放路径
-    └─test											# 测试包
+    │      └─static							# 静态资源存放路径
+    └─test								# 测试包
         └─java
             └─com
                 └─example
-                    └─springbootmybatis							# 测试逻辑业务包
+                    └─springbootmybatis				        # 测试逻辑业务包
                             SpringbootMybatisApplicationTests.java	# 测试启动类
 ```
 
